@@ -15,4 +15,3 @@ elif last_digit > 5:
     print(m, "greater than 5")
 else:
     print(m, "less than 6 and not 0")
-
