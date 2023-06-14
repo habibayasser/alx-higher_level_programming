@@ -9,4 +9,4 @@ def roman_to_int(roman_string):
     for roman in reversed(roman_string):
         arabic = digits[roman]
         to += arabic if to < arabic * 5 else -arabic
-    return total
+    return to
